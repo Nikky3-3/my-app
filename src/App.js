@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 function App() {
   const [num, setNum] = useState(0);
   const [primeR, setPrime] = useState("");
+  
  
   function AddPrimeNumber() {
     let prime = true;
@@ -40,6 +41,9 @@ function App() {
       else setPrime("ไม่เป็นจำนวนเฉพาะ");
     }
   }
+  
+
+
 
   return (
     <div>
