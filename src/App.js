@@ -1,6 +1,7 @@
 import './App.css';
 import MyHeader from './MyHeader';
 import MyFooter from './MyFooter';
+import Date from './Date';
 import React, { useState } from 'react';
 
 function App() {
@@ -54,10 +55,17 @@ function App() {
         <button className='btn btn-danger' onClick={SubtractPrimeNumber}>ลด</button>
         <div>&nbsp;</div>
         <p>{num} {primeR}</p>
-      </div>     
+      </div> 
+      <div id='Date1'></div>
       <MyFooter />
+      
     </div>
+    
   );
+  
+  
+  
 }
+
 
 export default App;
